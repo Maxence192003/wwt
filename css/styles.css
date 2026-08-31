@@ -1,0 +1,12 @@
+body {
+    width: 56.25em;
+    margin: 0 auto;
+    background-color: rgb(220, 220, 220);
+    color: rgb(136, 136, 136);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+header {
+    height: 15.5em;
+}
