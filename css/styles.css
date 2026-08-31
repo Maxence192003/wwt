@@ -1,7 +1,11 @@
+html {
+    background-color: rgb(213, 213, 213);
+}
+
 body {
     width: 56.25em;
     margin: 0 auto;
-    background-color: rgb(220, 220, 220);
+    background-color: rgb(251, 245, 245);
     color: rgb(136, 136, 136);
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
@@ -9,4 +13,106 @@ body {
 
 header {
     height: 15.5em;
+    background-image: url("../images/bg-header.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1.5em;
+    
+}
+header h1 {
+    margin-top: 0;
+    color: white;
+    background-color: rgb(114, 172, 69);
+    font-size: 1.9em;
+    text-shadow: 2px 2px 3px rgb(136, 136, 136);
+    margin-bottom: 1.5em;
+    padding-left: 1em;
+}
+
+header img {
+    margin-left: 3em;
+    border: 0.2em solid rgb(0, 0, 0);
+    
+}
+
+nav{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+nav a {
+    font-size: 1em;
+    color: rgb(114, 172, 69);
+    border: 0.0625em solid rgb(213, 213, 213);
+    padding: 0.5em;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgb(114, 172, 69);
+    color: white;
+}
+
+main {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+main h1 {
+    font-size: 2.1em;
+    color: rgb(136, 136, 136);
+}
+
+main h2 {
+    font-size: 1.5em;
+    color: rgb(114, 172, 69);
+    line-height: 1.7em;
+}
+
+main p{
+    font-size: 0.9em;
+    color: rgb(136, 136, 136);
+    line-height: 1.7em;
+}
+
+main span{
+    color: rgb(114, 172, 69);
+}
+
+.texte-image {
+    display: flex;
+    align-items: flex-start;
+    gap: 2em;
+}
+
+.texte-image > div {
+    flex: 1;
+}
+
+.texte-image img {
+    width: 15em;
+}
+
+.image-arrondie {
+    border: 0.5em solid rgb(213, 213, 213);
+    border-radius: 1em;
+}
+
+main button{
+    margin-bottom: 1.5em;
+}
+
+.image-cadre {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.sources {
+    font-size: 0.7em;
+    color: white;
+    background-color: rgb(136, 136, 136);
+    margin-left: -1.5em;
+    margin-right: -1.5em;
+    padding: 0.5em 1em;
 }
